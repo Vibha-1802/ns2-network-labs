@@ -1,0 +1,17 @@
+Enter poly: 1011101
+Generating Polynomial is: 10001000000100001
+Modified t[u] is: 10111010000000000000000
+Checksum is: 1000101101011000
+FinalCodeword is: 10111011000101101011000
+Test Error detection 0(yes) 1(no) ? : 0
+Enter position where error is to inserted: 3
+Errorneous data: 10101011000101101011000
+Error detected.
+
+Enter poly: 1011101
+Generating Polynomial is: 10001000000100001
+Modified t[u] is: 10111010000000000000000
+Checksum is: 1000101101011000
+FinalCodeword is: 10111011000101101011000
+Test Error detection 0(yes) 1(no) ? : 1
+No Error Detected.

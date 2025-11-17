@@ -1,0 +1,28 @@
+Enter the value of number of nodes: 4
+Enter the routing table:
+a b c d
+a 0 6 7 999
+b 6 0 999 3
+c 7 999 0 5
+d 999 3 5 0
+Table for router a:
+a :: 0 via a
+b :: 6 via a
+c :: 7 via a
+d :: 9 via b
+
+Table for router b:
+a :: 6 via b
+b :: 0 via b
+c :: 8 via d
+d :: 3 via b
+Table for router c:
+a :: 7 via c
+b :: 8 via d
+c :: 0 via c
+d :: 5 via c
+Table for router d:
+a :: 9 via b
+b :: 3 via d
+c :: 5 via d
+d :: 0 via d
